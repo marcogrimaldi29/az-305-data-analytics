@@ -1,0 +1,28 @@
+// ── Mermaid diagram containers ───────────────────────────────────────
+.mermaid {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+// ── Exam caveat callout boxes ─────────────────────────────────────────
+.exam-tip {
+  border-left: 4px solid #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
+  padding: 0.75rem 1rem;
+  border-radius: 0 0.4rem 0.4rem 0;
+  margin: 1rem 0;
+}
+
+// ── Table readability ────────────────────────────────────────────────
+table {
+  font-size: 0.875rem;
+}
+
+th {
+  white-space: nowrap;
+}
+
+// ── Code blocks ──────────────────────────────────────────────────────
+pre.highlight {
+  border-radius: 0.4rem;
+}
