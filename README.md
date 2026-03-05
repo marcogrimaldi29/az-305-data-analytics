@@ -96,4 +96,6 @@ The [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme is use
 
 [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) was used for initial content generation and structuring, with all final edits, fact-checking, and formatting done by the author.
 
+---
+
 > *Not affiliated with or endorsed by Microsoft. Always verify against the latest [Microsoft documentation](https://learn.microsoft.com/en-us/azure/). Content is based on the [AZ-305 official study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305).*

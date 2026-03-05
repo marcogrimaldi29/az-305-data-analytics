@@ -189,4 +189,4 @@ Define when a pipeline runs:
 
 ---
 
-[← 01 — Azure SQL](/az-305-data-analytics/01-azure-sql/) | [03 — Azure Stream Analytics →](/az-305-study-notes/03-azure-stream-analytics/)
+[← 01 — Azure SQL](/az-305-data-analytics/01-azure-sql/) | [03 — Azure Stream Analytics →](/az-305-data-analytics/03-azure-stream-analytics/)

@@ -194,4 +194,4 @@ Synapse Link creates a **near-real-time analytical replica** of operational data
 
 ---
 
-[← 03 — Azure Stream Analytics](/az-305-data-analytics/03-azure-stream-analytics/) | [04 — Azure Databricks →](/az-305-study-notes/05-azure-databricks/)
+[← 03 — Azure Stream Analytics](/az-305-data-analytics/03-azure-stream-analytics/) | [04 — Azure Databricks →](/az-305-data-analytics/05-azure-databricks/)
