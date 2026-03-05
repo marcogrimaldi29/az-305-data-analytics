@@ -29,10 +29,10 @@ nav_sort: case_sensitive
 nav_external_links:
   - title: "📘 AZ-305 Study Notes"
     url: https://marcogrimaldi29.com/az-305-study-notes/
-  - title: "🥽 AZ-305: Azure Messaging Services — Deep Dive"
-    url: https://marcogrimaldi29.com/az-305-messaging/
   - title: "🥽 AZ-305: Azure Compute Services — Deep Dive"
     url: https://marcogrimaldi29.com/az-305-compute/
+  - title: "🥽 AZ-305: Azure Messaging Services — Deep Dive"
+    url: https://marcogrimaldi29.com/az-305-messaging/
   - title: "📘 AZ-104 Study Notes"
     url: https://marcogrimaldi29.com/az-104-study-notes/
 #  - title: "🏠 marcogrimaldi29.com"
