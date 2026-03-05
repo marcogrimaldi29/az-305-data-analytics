@@ -1,7 +1,10 @@
 ---
 layout: home
-title: Home
+title: AZ-305 Data & Analytics Services Deep Dive
 nav_order: 1
+description: "Deep dive study notes covering six Azure Data & Analytics services heavily tested in the AZ-305: Designing Microsoft Azure Infrastructure Solutions exam."
+permalink: /
+mermaid: true
 ---
 
 # 🥽 AZ-305: Data & Analytics Services — Deep Dive
