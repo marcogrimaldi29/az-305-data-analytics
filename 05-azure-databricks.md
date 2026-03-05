@@ -7,7 +7,7 @@ permalink: /05-azure-databricks/
 mermaid: true
 ---
 
-# 🔥 Azure Databricks
+# 🧱 Azure Databricks
 {: .no_toc }
 
 **Apache Spark-based unified analytics platform — data engineering, ML, and streaming**

@@ -7,7 +7,7 @@ permalink: /03-azure-stream-analytics/
 mermaid: true
 ---
 
-# ⚡ Azure Stream Analytics
+# 🔊 Azure Stream Analytics
 {: .no_toc }
 
 **Serverless real-time stream processing with familiar SQL syntax**
