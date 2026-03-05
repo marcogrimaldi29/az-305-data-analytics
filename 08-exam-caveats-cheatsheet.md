@@ -299,4 +299,4 @@ Before sitting the exam, verify you can answer these without hesitation:
 
 ---
 
-[← 07 — Feature Comparison](/az-305-study-notes/07-feature-comparison/) | [Back to Home →](/az-305-data-analytics/) 
+[← 07 — Feature Comparison](/az-305-data-analytics/07-feature-comparison/) | [Back to Home →](/az-305-data-analytics/) 

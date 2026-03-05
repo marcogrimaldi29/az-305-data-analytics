@@ -207,4 +207,4 @@ Databricks natively supports **Apache Spark Structured Streaming** for continuou
 
 ---
 
-[← 04 — Azure Synapse Analytics](/az-305-data-analytics/04-azure-synapse-analytics/) | [06 — Azure IoT Hub →](/az-305-study-notes/06-azure-iot-hub/)
+[← 04 — Azure Synapse Analytics](/az-305-data-analytics/04-azure-synapse-analytics/) | [06 — Azure IoT Hub →](/az-305-data-analytics/06-azure-iot-hub/)

@@ -237,4 +237,4 @@ ASA scales by partitioning both the input and the query:
 
 ---
 
-[← 02 — Azure Data Factory](/az-305-data-analytics/02-azure-data-factory/) | [04 — Azure Synapse Analytics →](/az-305-study-notes/04-azure-synapse-analytics/)
+[← 02 — Azure Data Factory](/az-305-data-analytics/02-azure-data-factory/) | [04 — Azure Synapse Analytics →](/az-305-data-analytics/04-azure-synapse-analytics/)

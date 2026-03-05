@@ -230,5 +230,5 @@ Stores full backups in Azure Blob Storage for up to **10 years**. Configured sep
 
 ---
 
-[← Back to Home](/az-305-data-analytics/) | [02 — Azure Data Factory →](/az-305-study-notes/02-azure-data-factory/)
+[← Back to Home](/az-305-data-analytics/) | [02 — Azure Data Factory →](/az-305-data-analytics/02-azure-data-factory/)
 
