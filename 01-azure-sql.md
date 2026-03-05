@@ -2,6 +2,9 @@
 layout: default
 title: "01 — Azure SQL"
 nav_order: 2
+description: "Deep dive into Azure SQL Database, Managed Instance, and SQL Server on VM — deployment options, feature comparisons, HA, geo-replication, security, migration scenarios, and exam caveats."
+permalink: /01-azure-sql/
+mermaid: true
 ---
 
 # 🛢️ Azure SQL
@@ -22,7 +25,7 @@ nav_order: 2
 
 ## Product Overview
 
-**Azure SQL** is an umbrella name for Microsoft's family of SQL Server-compatible, cloud relational database services. The three deployment options differ in how much management responsibility you retain versus delegate to Azure:
+**Azure SQL** is an umbrella term for Microsoft's family of SQL Server-compatible, cloud relational database services. The three deployment options differ in how much management responsibility you retain versus delegate to Azure:
 
 ```mermaid
 flowchart LR
@@ -85,9 +88,9 @@ flowchart LR
 | **Hyperscale** | Very large DBs (up to 100 TB) | Distributed storage, rapid scale-out read replicas |
 | **Serverless** | Intermittent, unpredictable load | Auto-pause/resume, billed per second of use |
 
-> ⚠️ **Exam Caveat — Business Critical vs General Purpose:** Business Critical includes a **free readable secondary replica** (usable for reporting) and uses local SSD storage — it is the correct tier when the scenario mentions **low latency reads** or **in-memory OLTP**.
-
-> ⚠️ **Exam Caveat — Serverless:** The Serverless compute tier can **auto-pause** after a configurable idle period. It is NOT suitable for latency-sensitive applications that cannot tolerate the **cold start delay** on first connection after pause.
+> ⚠️ **Exam Caveat — Business Critical vs General Purpose vs Serverless:**
+> - **Business Critical:** Includes a **free readable secondary replica** (usable for reporting) and uses local SSD storage — it is the correct tier when the scenario mentions **low latency reads** or **in-memory OLTP**.
+> - **Serverless:** The Serverless compute tier can **auto-pause** after a configurable idle period. It is NOT suitable for latency-sensitive applications that cannot tolerate the **cold start delay** on first connection after pause.
 
 ---
 
@@ -224,3 +227,8 @@ Stores full backups in Azure Blob Storage for up to **10 years**. Configured sep
 | Many small tenant DBs, variable load | **Elastic Pool** |
 | Needs SSRS, SSAS, full BI stack | **SQL Server on VM** |
 | Fastest provisioning of a managed SQL service | **SQL Database** (seconds vs MI's ~6 hours) |
+
+---
+
+[← Back to Home](/az-305-data-analytics/) | [02 — Azure Data Factory →](/az-305-study-notes/02-azure-data-factory/)
+

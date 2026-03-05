@@ -2,6 +2,9 @@
 layout: default
 title: "04 — Azure Synapse Analytics"
 nav_order: 5
+description: "Deep dive into Azure Synapse Analytics — core concepts (linked services, datasets, pipelines, activities, integration runtimes, triggers), feature comparisons with Synapse Pipelines, security features, monitoring, pricing model, and common exam scenarios."
+permalink: /04-azure-synapse-analytics/
+mermaid: true
 ---
 
 # 🏭 Azure Synapse Analytics
@@ -188,3 +191,7 @@ Synapse Link creates a **near-real-time analytical replica** of operational data
 | Row-level security on warehouse data | **Dedicated SQL Pool** row-level security |
 | Unified platform for DW + Spark + pipelines | **Azure Synapse Analytics workspace** |
 | Hash vs round-robin distribution on fact table | **Hash distribution** on the join key |
+
+---
+
+[← 03 — Azure Stream Analytics](/az-305-data-analytics/03-azure-stream-analytics/) | [04 — Azure Databricks →](/az-305-study-notes/05-azure-databricks/)

@@ -2,6 +2,9 @@
 layout: default
 title: "07 — Feature Comparison"
 nav_order: 8
+description: "The ultimate side-by-side feature comparison of Azure SQL, Data Factory, Stream Analytics, Synapse Analytics, Databricks, and IoT Hub — to ace those tricky AZ-305 scenario questions."
+permalink: /07-feature-comparison/
+mermaid: true
 ---
 
 # 📊 Feature Comparison — All Six Services
@@ -185,3 +188,7 @@ Use this table when a scenario involves a **relational database** requirement:
 | Synapse Serverless | Per TB scanned | Use Parquet (columnar) to reduce scan volume |
 | Databricks | Per DBU-hour | Job clusters over all-purpose; instance pools |
 | IoT Hub | Per message + unit-hour | Use Basic tier if C2D not needed |
+
+---
+
+[← 06 — Azure IoT Hub](/az-305-data-analytics/06-azure-iot/) | [08 — Exam Caveats & Cheatsheets →](/az-305-study-notes/08-exam-caveats-cheatsheet/)

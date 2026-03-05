@@ -2,6 +2,9 @@
 layout: default
 title: "06 — Azure IoT"
 nav_order: 7
+description: "Deep dive into Azure IoT — core concepts (linked services, datasets, pipelines, activities, integration runtimes, triggers), feature comparisons with Synapse Pipelines, security features, monitoring, pricing model, and common exam scenarios."
+permalink: /06-azure-iot/
+mermaid: true
 ---
 
 # 📡 Azure IoT
@@ -229,3 +232,7 @@ IoT Edge runs Azure services and custom logic **directly on IoT devices** as con
 | Route temperature alerts to Service Bus, archive all to Blob | **IoT Hub Message Routing** (multiple endpoints) |
 | React to device connect/disconnect events | **IoT Hub + Event Grid** (lifecycle events) |
 | OT/industrial network device security monitoring | **Microsoft Defender for IoT** |
+
+---
+
+[← 05 — Azure Databricks](/az-305-data-analytics/05-azure-databricks/) | [07 — Feature Comparison →](/az-305-study-notes/07-feature-comparison/)

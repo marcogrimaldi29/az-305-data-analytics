@@ -41,6 +41,10 @@ aux_links:
 
 aux_links_new_tab: true
 
+# ── Back to top button ───────────────────────────────────────────────
+back_to_top:      true
+back_to_top_text: "Back to top ↑"
+
 # ── Footer ───────────────────────────────────────────────────────────
 footer_content: >
   Maintained by <a href="https://www.linkedin.com/in/marco-grimaldi29/">Marco Grimaldi</a>.
