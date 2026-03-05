@@ -17,6 +17,8 @@ mermaid: true
 [![Personal Hub of Marco Grimaldi](https://img.shields.io/badge/Blog-marcogrimaldi29.com-blue?logo=rss)](https://marcogrimaldi29.com)
 [![AZ-305 Main Notes](https://img.shields.io/badge/AZ--305-Main%20Notes-blue?logo=microsoftazure)](https://marcogrimaldi29.com/az-305-study-notes/)
 
+[View on GitHub](https://github.com/marcogrimaldi29/az-305-data-analytics){: .btn .fs-5 .mb-4 .mb-md-0 target="_blank" }
+
 > - 🎯 **Purpose:** Deep-dive study notes covering six Azure Data & Analytics services heavily tested in the **AZ-305: Designing Microsoft Azure Infrastructure Solutions** exam.
 > - 📅 **Version:** 2026
 > - ✍️ **Author:** [Marco Grimaldi](https://www.linkedin.com/in/marco-grimaldi29/)
