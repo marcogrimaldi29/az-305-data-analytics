@@ -7,11 +7,11 @@
 [![Personal Hub of Marco Grimaldi](https://img.shields.io/badge/Blog-marcogrimaldi29.com-blue?logo=rss)](https://marcogrimaldi29.com)
 [![AZ-305 Main Notes](https://img.shields.io/badge/AZ--305-Main%20Notes-blue?logo=microsoftazure)](https://marcogrimaldi29.com/az-305-study-notes/)
 
-> 🎯 **Goal:** Master six Azure Data & Analytics services for the **AZ-305: Designing Microsoft Azure Infrastructure Solutions** exam
-> 📅 **Notes Version:** 2026
-> 🌐 **Published site:** [marcogrimaldi29.com/az-305-data-analytics](https://marcogrimaldi29.com/az-305-data-analytics/)
-> ✍️ **Author:** [Marco Grimaldi](https://www.linkedin.com/in/marco-grimaldi29/)
-> 🔗 **Companion repos:** [📘 AZ-305 Study Notes](https://marcogrimaldi29.com/az-305-study-notes/) · [🥽 AZ-305: Azure Messaging Services — Deep Dive](https://marcogrimaldi29.com/az-305-messaging/)
+> - 🎯 **Purpose:** Deep-dive study notes covering six Azure Data & Analytics services heavily tested in the **AZ-305: Designing Microsoft Azure Infrastructure Solutions** exam.
+> - 📅 **Version:** 2026
+> - ✍️ **Author:** [Marco Grimaldi](https://www.linkedin.com/in/marco-grimaldi29/)
+> - 🌐 **Published:** [🥽 AZ-305: Data & Analytics Services — Deep Dive](https://marcogrimaldi29.com/az-305-data-analytics/)
+> - 🔗 **Companion repos:** [📘 AZ-305 Study Notes](https://marcogrimaldi29.com/az-305-study-notes/) · [🥽 AZ-305: Azure Messaging Services — Deep Dive](https://marcogrimaldi29.com/az-305-messaging/) · [🥽 AZ-305: Azure Compute Services — Deep Dive](https://marcogrimaldi29.com/az-305-compute/)
 
 ---
 
