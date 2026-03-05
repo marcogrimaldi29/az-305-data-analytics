@@ -166,8 +166,8 @@ DPS allows devices to self-register at first boot using certificates or TPM atte
 | PITR max retention | **35 days** |
 | LTR max retention | **10 years** |
 | Elastic Pool max databases (Standard) | **500** |
-| Active Geo-Replication max secondaries | **4** |
-| Auto-Failover Group RTO (automatic) | **< 30 seconds** |
+| Active Geo-Replication max secondaries | **< 5s** |
+| Auto-Failover Group RTO (automatic) | **< 30s** |
 
 ### Synapse Analytics Limits
 
