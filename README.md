@@ -94,8 +94,8 @@ Maintained by **[Marco Grimaldi](https://www.linkedin.com/in/marco-grimaldi29/)*
 
 The [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme is used for a clean, documentation-style layout. Licensed under [MIT](https://opensource.org/license/MIT).
 
-[Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6) was used for initial content generation and structuring, with all final edits, fact-checking, and formatting done by the author.
+Created with the help of AI. Model used: [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6). The content has been reviewed and edited by the author for accuracy and clarity, but may contain errors. Always verify against the latest [Microsoft documentation](https://learn.microsoft.com/en-us/azure/).
 
 ---
 
-> *Not affiliated with or endorsed by Microsoft. Always verify against the latest [Microsoft documentation](https://learn.microsoft.com/en-us/azure/). Content is based on the [AZ-305 official study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305).*
+> *Not affiliated with or endorsed by Microsoft.*
