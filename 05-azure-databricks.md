@@ -2,6 +2,9 @@
 layout: default
 title: "05 — Azure Databricks"
 nav_order: 6
+description: "Deep dive into Azure Databricks — core concepts (linked services, datasets, pipelines, activities, integration runtimes, triggers), feature comparisons with Synapse Pipelines, security features, monitoring, pricing model, and common exam scenarios."
+permalink: /05-azure-databricks/
+mermaid: true
 ---
 
 # 🔥 Azure Databricks
@@ -201,3 +204,7 @@ Databricks natively supports **Apache Spark Structured Streaming** for continuou
 | Real-time streaming with exactly-once semantics | **Structured Streaming + Delta Lake checkpointing** |
 | Manage ML experiments and model versions | **MLflow** integrated in Databricks |
 | Declarative pipeline with data quality expectations | **Delta Live Tables** |
+
+---
+
+[← 04 — Azure Synapse Analytics](/az-305-data-analytics/04-azure-synapse-analytics/) | [06 — Azure IoT Hub →](/az-305-study-notes/06-azure-iot-hub/)

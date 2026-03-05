@@ -2,6 +2,9 @@
 layout: default
 title: "08 — Exam Caveats & Cheatsheet"
 nav_order: 9
+description: "Last-minute review — exam traps, decision trees, and must-memorise numbers."
+permalink: /08-exam-caveats-cheatsheet/
+mermaid: true
 ---
 
 # 🎯 Exam Caveats & Quick-Reference Cheatsheet
@@ -297,3 +300,7 @@ Before sitting the exam, verify you can answer these without hesitation:
 ---
 
 *Good luck on the exam! 🏅 — [Marco Grimaldi](https://marcogrimaldi29.com)*
+
+---
+
+[← 07 — Feature Comparison](/az-305-study-notes/07-feature-comparison/) | [Back to Home →](/az-305-data-analytics/) 

@@ -2,6 +2,9 @@
 layout: default
 title: "02 — Azure Data Factory"
 nav_order: 3
+description: "Deep dive into Azure Data Factory — core concepts (linked services, datasets, pipelines, activities, integration runtimes, triggers), feature comparisons with Synapse Pipelines, security features, monitoring, pricing model, and common exam scenarios."
+permalink: /02-azure-data-factory/
+mermaid: true
 ---
 
 # 🔀 Azure Data Factory
@@ -183,3 +186,7 @@ Define when a pipeline runs:
 | ETL within a Synapse Analytics workspace | **Synapse Pipelines** (same as ADF) |
 | Incremental data load with time-window ordering | ADF **Tumbling Window trigger** |
 | ADF pipeline credentials using managed identity | **Managed Identity** on ADF linked service |
+
+---
+
+[← 01 — Azure SQL](/az-305-data-analytics/01-azure-sql/) | [03 — Azure Stream Analytics →](/az-305-study-notes/03-azure-stream-analytics/)

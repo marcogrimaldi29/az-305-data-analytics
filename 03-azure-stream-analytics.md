@@ -2,6 +2,9 @@
 layout: default
 title: "03 — Azure Stream Analytics"
 nav_order: 4
+description: "Deep dive into Azure Stream Analytics — core concepts (jobs, inputs, outputs, windowing), feature comparisons with Synapse Streaming, security features, monitoring, pricing model, and common exam scenarios."
+permalink: /03-azure-stream-analytics/
+mermaid: true
 ---
 
 # ⚡ Azure Stream Analytics
@@ -231,3 +234,7 @@ ASA scales by partitioning both the input and the query:
 | Geofencing alert when vehicle leaves a zone | ASA **ST_WITHIN** geo-spatial function |
 | Scale ASA job without stopping it | Adjust **Streaming Units** (live scaling) |
 | Stream telemetry to both SQL and Power BI simultaneously | ASA supports **multiple outputs** per job |
+
+---
+
+[← 02 — Azure Data Factory](/az-305-data-analytics/02-azure-data-factory/) | [04 — Azure Synapse Analytics →](/az-305-study-notes/04-azure-synapse-analytics/)
