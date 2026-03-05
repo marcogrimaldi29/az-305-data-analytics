@@ -33,9 +33,9 @@ This companion repository to the [AZ-305 Study Notes](https://marcogrimaldi29.co
 |------|----------|
 | [🛢️ 01 — Azure SQL](01-azure-sql.md) | SQL Database, Managed Instance, SQL Server on VM — tiers, HA, Geo-replication, SKUs |
 | [🔀 02 — Azure Data Factory](02-azure-data-factory.md) | Pipelines, datasets, linked services, IR types, triggers, monitoring |
-| [⚡ 03 — Azure Stream Analytics](03-azure-stream-analytics.md) | Streaming jobs, windowing, inputs/outputs, scaling, compatibility |
+| [🔊 03 — Azure Stream Analytics](03-azure-stream-analytics.md) | Streaming jobs, windowing, inputs/outputs, scaling, compatibility |
 | [🏭 04 — Azure Synapse Analytics](04-azure-synapse-analytics.md) | Dedicated/serverless SQL pools, Spark pools, pipelines, Link, Studio |
-| [🔥 05 — Azure Databricks](05-azure-databricks.md) | Workspaces, clusters, Delta Lake, Unity Catalog, SKUs, security |
+| [🧱 05 — Azure Databricks](05-azure-databricks.md) | Workspaces, clusters, Delta Lake, Unity Catalog, SKUs, security |
 | [📡 06 — Azure IoT](06-azure-iot.md) | IoT Hub, IoT Central, DPS, Device Twins, routing, tiers |
 | [📊 07 — Feature Comparison](07-feature-comparison.md) | Side-by-side tables: ETL vs streaming, SQL options, analytics layers |
 | [🎯 08 — Exam Caveats & Cheatsheet](08-exam-caveats-cheatsheet.md) | Decision trees, exam traps, quick-fire numbers, final checklist |
@@ -69,4 +69,4 @@ Data services surface across **all four exam domains**:
 
 ---
 
-*Not affiliated with or endorsed by Microsoft. Always verify against the latest [Microsoft documentation](https://learn.microsoft.com/en-us/azure/). Content is based on the [AZ-305 official study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305).*
+> *Not affiliated with or endorsed by Microsoft. Always verify against the latest [Microsoft documentation](https://learn.microsoft.com/en-us/azure/). Content is based on the [AZ-305 official study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305).*
