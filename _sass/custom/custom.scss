@@ -14,15 +14,6 @@
 // vars in Section 1 and the colours in Sections 2–6. Everything else
 // (structural rules below the palette block) stays the same.
 //
-// PALETTE REFERENCE FOR ALL REPOS
-// ─────────────────────────────────
-//   az-305-study-notes    → "Slate"          #8ab4f8 blue (default fallbacks)
-//   az-305-messaging      → "Ember Copper"   #fb923c orange / #160c04 sidebar
-//   az-305-data-analytics → "Deep Indigo"    #a78bfa violet / #0c0917 sidebar ← THIS FILE
-//   az-305-compute        → "Electric Steel" #38bdf8 cyan  / #060f1c sidebar 
-//
-// See PALETTE-GUIDE.md in this repo for ready-to-paste snippets for each.
-
 // ── Section 1: Accent CSS variables ───────────────────────────────────
 // Consumed by head_custom.html via var(--repo-*, fallback).
 // These five vars are the complete theming contract with head_custom.html.
@@ -63,7 +54,7 @@ body .main-content a:hover                 { color: #c4b5fd; text-decoration: un
 // ── Section 5: Table header ───────────────────────────────────────────
 // head_custom.html uses var(--sidebar-color) for th background — that
 // CSS var is set by Just the Docs and won't pick up our sidebar colour.
-// Override explicitly here to match the palette sidebar.
+// Override explicitly here to match the sidebar palette.
 body .main-content table th                { background-color: #180f2e; color: #ede9fe; }
 
 
