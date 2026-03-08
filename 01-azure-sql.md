@@ -189,9 +189,9 @@ Stores full backups in Azure Blob Storage for up to **10 years**. Configured sep
 | Feature | SQL Database | Managed Instance | SQL on VM |
 |---------|-------------|-----------------|-----------|
 | **Microsoft Entra ID auth** | ✅ | ✅ | ✅ |
-| **Always Encrypted** | ✅ | ✅ | ✅ |
-| **Transparent Data Encryption (TDE)** | ✅ (on by default) | ✅ (on by default) | Manual |
-| **Dynamic Data Masking** | ✅ | ✅ | ❌ |
+| **Always Encrypted (with secure enclaves, encryption-in-transit)** | ✅ | ✅ | ✅ |
+| **Transparent Data Encryption (TDE, encryption-at-rest)** | ✅ (on by default) | ✅ (on by default) | Manual |
+| **Dynamic Data Masking (DDM)** | ✅ | ✅ | ❌ |
 | **Row-Level Security** | ✅ | ✅ | ✅ |
 | **Advanced Threat Protection** | ✅ | ✅ | ❌ (Defender) |
 | **Vulnerability Assessment** | ✅ | ✅ | ❌ |
