@@ -191,4 +191,4 @@ Use this table when a scenario involves a **relational database** requirement:
 
 ---
 
-[← 06 — Azure IoT Hub](/az-305-data-analytics/06-azure-iot/) | [08 — Exam Caveats & Cheatsheets →]((/az-305-data-analytics/08-exam-caveats-cheatsheet/)
+[← 06 — Azure IoT Hub](/az-305-data-analytics/06-azure-iot/) | [08 — Exam Caveats & Cheatsheets →](/az-305-data-analytics/08-exam-caveats-cheatsheet/)
