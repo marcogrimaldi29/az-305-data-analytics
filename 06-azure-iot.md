@@ -235,4 +235,4 @@ IoT Edge runs Azure services and custom logic **directly on IoT devices** as con
 
 ---
 
-[← 05 — Azure Databricks](/az-305-data-analytics/05-azure-databricks/) | [07 — Feature Comparison →]((/az-305-data-analytics/07-feature-comparison/)
+[← 05 — Azure Databricks](/az-305-data-analytics/05-azure-databricks/) | [07 — Feature Comparison →](/az-305-data-analytics/07-feature-comparison/)
