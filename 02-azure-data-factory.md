@@ -80,17 +80,21 @@ A logical grouping of activities that together perform a unit of work. Pipelines
 ### Integration Runtime (IR)
 The execution infrastructure for ADF activities. This is one of the **most exam-tested concepts**.
 
-| IR Type | Location | Use Case |
-|---------|----------|----------|
-| **Azure IR** | Azure (managed) | Cloud-to-cloud data movement and Data Flows; no setup required |
-| **Self-hosted IR** | Customer premises or VM | Access on-premises or private-network data sources |
-| **Azure-SSIS IR** | Azure (managed) | Lift-and-shift SSIS packages to run natively in ADF |
+| IR Type | Location | Use Case | Available in Synapse Pipelines? |
+|---------|----------|----------|---------------------------------|
+| **Azure IR** | Azure (managed) | Cloud-to-cloud data movement and Data Flows; no setup required | ✅ Yes |
+| **Self-hosted IR** | Customer premises or VM | Access on-premises or private-network data sources | ✅ Yes (but not shareable — see below) |
+| **Azure-SSIS IR** | Azure (managed) | Lift-and-shift SSIS packages to run natively in ADF | ❌ **ADF only** |
 
 > ⚠️ **Exam Caveat — IR Type Selection:**
 > - On-premises source → **Self-hosted IR** (installed on a machine that can reach the source)
 > - Cloud-to-cloud → **Azure IR**
-> - Migrating SSIS packages without rewriting → **Azure-SSIS IR**
-> - Self-hosted IR can be **shared** across multiple ADF instances
+> - Migrating SSIS packages without rewriting → **Azure-SSIS IR** (**ADF only**)
+> - Self-hosted IR can be **shared across multiple ADF instances** — this sharing capability is **ADF only and does not apply to Synapse Pipelines**
+
+> ⚠️ **Exam Caveat — ADF-Only IR Features:** Two IR capabilities are exclusive to ADF and unavailable in Synapse Pipelines:
+> - **Shared self-hosted IR:** ADF allows one self-hosted IR to be shared (linked) across multiple data factories. Synapse Pipelines does not support this — each workspace must deploy its own self-hosted IR independently.
+> - **Azure-SSIS IR:** Only ADF can host an Azure-SSIS IR for running SSIS packages natively. If the scenario involves lifting SSIS packages to the cloud, the answer is **ADF**, not Synapse Pipelines.
 
 ### Triggers
 Define when a pipeline runs:
@@ -153,8 +157,16 @@ Define when a pipeline runs:
 | **Best for** | Standalone ETL, cross-workspace orchestration | ETL within a Synapse analytics project |
 | **Licensing** | Separate resource | Included with Synapse workspace |
 | **Integration** | Via linked services to Synapse | Native — pipelines can trigger Spark/SQL pool jobs directly |
+| **Data sharing across instances** | ✅ Share data across data factories | ❌ Not supported |
+| **Cross-region data flows** | ✅ Supported | ❌ Not supported |
+| **Azure-SSIS IR** | ✅ Full support | ❌ Not supported |
+| **Shared self-hosted IR** | ✅ One IR can be linked across multiple factories | ❌ Not supported — each workspace needs its own |
 
-> ⚠️ **Exam Caveat:** Synapse Pipelines and ADF share the **same underlying engine** — the exam treats them as functionally equivalent for integration scenarios. Choose Synapse Pipelines when the workload lives entirely inside a Synapse workspace; choose ADF for enterprise-wide, multi-platform integration.
+> ⚠️ **Exam Caveat — When ADF Is Required Over Synapse Pipelines:** Despite sharing the same underlying engine, there are four scenarios where the answer must be **ADF** rather than Synapse Pipelines:
+> - **SSIS packages:** Azure-SSIS IR only exists in ADF. If the scenario mentions lifting SSIS packages to Azure, Synapse Pipelines cannot do it.
+> - **Shared IR across workloads:** If multiple teams or factories need to share one self-hosted IR node, ADF supports linked/shared self-hosted IRs; Synapse does not.
+> - **Cross-region data flows:** ADF supports running Data Flows in a different Azure region from the source data; Synapse Pipelines does not.
+> - **Multi-workspace data sharing:** ADF pipelines can share datasets and linked services across factories; Synapse workspaces are isolated in this regard.
 
 ---
 
@@ -178,12 +190,13 @@ Define when a pipeline runs:
 | Scenario | Answer |
 |----------|--------|
 | Move data from on-premises Oracle to ADLS Gen2 | ADF pipeline with **Self-hosted IR** |
-| Lift-and-shift existing SSIS packages to cloud | ADF with **Azure-SSIS IR** |
+| Lift-and-shift existing SSIS packages to cloud | **ADF** with **Azure-SSIS IR** (Synapse cannot do this) |
+| Share one self-hosted IR node across multiple pipelines in different factories | **ADF** shared self-hosted IR (not available in Synapse Pipelines) |
 | Schedule-based batch ETL, cloud sources only | ADF pipeline with **Azure IR** + Schedule trigger |
 | Trigger pipeline when a file lands in Blob storage | ADF **Storage Event trigger** |
 | Code-free large-scale data transformation | ADF **Mapping Data Flow** |
 | Store connection string securely in ADF | **Key Vault-backed Linked Service** |
-| ETL within a Synapse Analytics workspace | **Synapse Pipelines** (same as ADF) |
+| ETL within a Synapse Analytics workspace | **Synapse Pipelines** (same as ADF, when no ADF-only features needed) |
 | Incremental data load with time-window ordering | ADF **Tumbling Window trigger** |
 | ADF pipeline credentials using managed identity | **Managed Identity** on ADF linked service |
 
