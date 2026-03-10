@@ -123,6 +123,31 @@ Functionally identical to **Azure Data Factory** (shared codebase). Synapse Pipe
 | Notebook Activity | Triggers a Spark notebook |
 | SQL Pool Activity | Runs a stored procedure or SQL script on Dedicated SQL Pool |
 
+### Integration Runtime in Synapse Pipelines
+
+Synapse Pipelines support the same **Azure IR** and **Self-hosted IR** types as ADF, but with two important restrictions that are frequently tested:
+
+| IR Type | Supported in Synapse Pipelines? | Notes |
+|---------|--------------------------------|-------|
+| **Azure IR** | ✅ Yes | Cloud-to-cloud movement and Data Flows; default IR |
+| **Self-hosted IR** | ✅ Yes (limited) | On-premises / private network access; **cannot be shared** |
+| **Azure-SSIS IR** | ❌ No | ADF only — for running SSIS packages natively |
+
+**Synapse Pipelines IR limitations vs ADF:**
+
+| Capability | Azure Data Factory | Synapse Pipelines |
+|------------|-------------------|-------------------|
+| Shared self-hosted IR (linked across workspaces) | ✅ Supported | ❌ Not supported |
+| Azure-SSIS IR (SSIS package execution) | ✅ Supported | ❌ Not supported |
+| Cross-region data flows | ✅ Supported | ❌ Not supported |
+| Data sharing across factory / workspace instances | ✅ Supported | ❌ Not supported |
+
+> ⚠️ **Exam Caveat — Synapse Pipelines IR Limitations:** Although Synapse Pipelines and ADF share the same engine, Synapse Pipelines has four IR-related gaps the exam exploits:
+> - **No Azure-SSIS IR:** If the scenario involves running or migrating SSIS packages, **ADF is the only valid answer** — Synapse Pipelines cannot host an Azure-SSIS IR.
+> - **No shared self-hosted IR:** In ADF, a single self-hosted IR node can be shared (linked) across multiple data factories, reducing infrastructure costs. Synapse workspaces cannot share a self-hosted IR — each workspace must install and manage its own.
+> - **No cross-region data flows:** ADF can execute Mapping Data Flows in a region different from the data source. Synapse Pipelines cannot, which matters for data residency and latency scenarios.
+> - **No cross-workspace data sharing:** ADF supports sharing datasets and linked services across factories. Synapse workspaces are isolated — data sharing must be handled via ADLS Gen2 or Synapse Link instead.
+
 ---
 
 ## Synapse Link
@@ -191,6 +216,8 @@ Synapse Link creates a **near-real-time analytical replica** of operational data
 | Row-level security on warehouse data | **Dedicated SQL Pool** row-level security |
 | Unified platform for DW + Spark + pipelines | **Azure Synapse Analytics workspace** |
 | Hash vs round-robin distribution on fact table | **Hash distribution** on the join key |
+| Migrate on-premises SSIS packages — use Synapse or ADF? | **ADF** — Azure-SSIS IR is not available in Synapse Pipelines |
+| Ingest data from on-premises SQL Server into Synapse, IR shared across teams | **ADF** with shared self-hosted IR — Synapse Pipelines cannot share a self-hosted IR |
 
 ---
 
