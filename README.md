@@ -22,9 +22,9 @@
 |---------|----------|--------------|
 | 🛢️ **Azure SQL** | Relational Database | Fully managed relational DB — Database, Managed Instance, VM |
 | 🔀 **Azure Data Factory** | Data Integration / ETL | Code-free & code-first pipelines to move and transform data at scale |
-| ⚡ **Azure Stream Analytics** | Real-time Stream Processing | SQL-based real-time queries on event streams |
+| 🔊 **Azure Stream Analytics** | Real-time Stream Processing | SQL-based real-time queries on event streams |
 | 🏭 **Azure Synapse Analytics** | Unified Analytics Platform | Data warehousing + big-data analytics in one workspace |
-| 🔥 **Azure Databricks** | Apache Spark Analytics | Collaborative Spark-based data engineering, ML, and streaming |
+| 🧱 **Azure Databricks** | Apache Spark Analytics | Collaborative Spark-based data engineering, ML, and streaming |
 | 📡 **Azure IoT** | IoT Platform | Device connectivity, management, routing, and telemetry ingestion |
 
 ---
@@ -55,9 +55,9 @@ az-305-data-analytics/
 | 📋 Skills Measured / Study Guide | [Official Study Guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/az-305) |
 | 🛢️ Azure SQL Docs | [Azure SQL overview](https://learn.microsoft.com/en-us/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview) |
 | 🔀 Azure Data Factory Docs | [ADF overview](https://learn.microsoft.com/en-us/azure/data-factory/introduction) |
-| ⚡ Stream Analytics Docs | [Stream Analytics overview](https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) |
+| 🔊 Azure Stream Analytics Docs | [Stream Analytics overview](https://learn.microsoft.com/en-us/azure/stream-analytics/stream-analytics-introduction) |
 | 🏭 Synapse Analytics Docs | [Synapse overview](https://learn.microsoft.com/en-us/azure/synapse-analytics/overview-what-is) |
-| 🔥 Databricks Docs | [Databricks on Azure](https://learn.microsoft.com/en-us/azure/databricks/introduction/) |
+| 🧱 Azure Databricks Docs | [Databricks on Azure](https://learn.microsoft.com/en-us/azure/databricks/introduction/) |
 | 📡 Azure IoT Hub Docs | [IoT Hub overview](https://learn.microsoft.com/en-us/azure/iot-hub/iot-concepts-and-iot-hub) |
 | 🧪 Free Practice Assessment | [Practice Assessment](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/practice/assessment?assessment-type=practice&assessmentId=15) |
 

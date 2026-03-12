@@ -205,18 +205,18 @@ flowchart TD
 
     Start --> A{"Relational database\nworkload?"}
     A -->|Yes| B{"Need SQL Agent,\nCLR, or full compat?"}
-    B -->|Yes, OS access needed| VM["🖥️ SQL Server on VM"]
+    B -->|Yes, OS access needed| VM["🖥 SQL Server on VM"]
     B -->|Yes, managed service OK| MI["🏢 SQL Managed Instance"]
     B -->|No| DB["🛢️ SQL Database"]
 
     A -->|No| C{"Real-time stream\nprocessing?"}
-    C -->|SQL-savvy team,\nno ML| ASA["⚡ Stream Analytics"]
-    C -->|ML + complex transforms| ADB_S["🔥 Databricks\n(Structured Streaming)"]
+    C -->|SQL-savvy team,\nno ML| ASA["🔊 Stream Analytics"]
+    C -->|ML + complex transforms| ADB_S["🧱 Databricks\n(Structured Streaming)"]
 
     C -->|No| D{"Big-data analytics\nor ML?"}
     D -->|Scheduled DW queries| SYN["🏭 Synapse Dedicated\nSQL Pool"]
     D -->|Ad-hoc lake queries| SRVL["🏭 Synapse Serverless\nSQL Pool"]
-    D -->|ML / complex ETL| ADB["🔥 Databricks"]
+    D -->|ML / complex ETL| ADB["🧱 Databricks"]
 
     D -->|No| E{"ETL / data movement?"}
     E -->|SSIS lift-and-shift| ADF_SSIS["🔀 ADF + Azure-SSIS IR"]
