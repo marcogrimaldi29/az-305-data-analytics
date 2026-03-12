@@ -33,8 +33,8 @@ flowchart TD
         ADF_IN["🔀 ADF Copy\n(batch ingestion)"]
     end
     subgraph Process["Process Layer"]
-        ASA["⚡ Stream Analytics\n(real-time SQL)"]
-        ADB["🔥 Databricks\n(Spark, ML, streaming)"]
+        ASA["🔊 Stream Analytics\n(real-time SQL)"]
+        ADB["🧱 Databricks\n(Spark, ML, streaming)"]
         ADF_P["🔀 ADF Data Flows\n(batch ETL)"]
     end
     subgraph Store["Store Layer"]

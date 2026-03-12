@@ -29,7 +29,7 @@ mermaid: true
 
 ---
 
-## 🗺️ What's in This Repository?
+## 🗺 What's in This Repository?
 
 This companion repository to the [AZ-305 Study Notes](https://marcogrimaldi29.com/az-305-study-notes/) zooms into **Azure Data & Analytics** — a cluster of services spanning relational databases, data integration, real-time stream processing, big-data warehousing, unified analytics, and IoT ingestion.
 
