@@ -22,7 +22,7 @@ mermaid: true
 
 > - 🎯 **Purpose:** Deep-dive study notes covering six Azure Data & Analytics services heavily tested in the **AZ-305: Designing Microsoft Azure Infrastructure Solutions** exam.
 > - 📅 **Version:** 2026
-> - ✍️ **Author:** [Marco Grimaldi](https://www.linkedin.com/in/marco-grimaldi29/)
+> - ✍ **Author:** [Marco Grimaldi](https://www.linkedin.com/in/marco-grimaldi29/)
 > - 🌐 **Published:** [🥽 AZ-305: Data & Analytics Services — Deep Dive](https://marcogrimaldi29.com/az-305-data-analytics/)
 > - 🔗 **Companion repos:** [📘 AZ-305 Study Notes](https://marcogrimaldi29.com/az-305-study-notes/) · [🥽 AZ-305: Azure Compute Services — Deep Dive](https://marcogrimaldi29.com/az-305-compute/) · [🥽 AZ-305: Azure Messaging Services — Deep Dive](https://marcogrimaldi29.com/az-305-messaging/) · [🥽 AZ-305: Migration, HA & BCDR — Deep Dive](https://marcogrimaldi29.com/az-305-bcdr/)
 · [📘 AZ-104 Study Notes](https://marcogrimaldi29.com/az-104-study-notes/) 
@@ -73,7 +73,7 @@ Data services surface across **all four exam domains**:
 
 ---
 
-## ©️ Credits & Acknowledgements
+## © Credits & Acknowledgements
 
 The [Just the Docs](https://github.com/just-the-docs/just-the-docs) theme is used for a clean, documentation-style layout. Licensed under [MIT](https://opensource.org/license/MIT).
 
