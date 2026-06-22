@@ -10,7 +10,7 @@ title:        "AZ-305 Data & Analytics Deep Dive"
 description:  "AZ-305 Exam Prep — Azure SQL, Data Factory, Stream Analytics, Synapse Analytics, Databricks & IoT: product overviews, feature comparisons, SKU tables, and exam caveats."
 baseurl:      "/az-305-data-analytics"
 url:          "https://marcogrimaldi29.com"
-logo:         "/assets/images/site-mark-no-bg.svg"
+logo:         "/assets/images/site-mark-no-bg.png"
 
 # ── Theme settings ──────────────────────────────────────────────────
 color_scheme:           dark
